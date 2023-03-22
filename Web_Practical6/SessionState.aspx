@@ -9,7 +9,16 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1>Hello World.</h1>
+            <label>Some String: </label>
+            <asp:TextBox ID="txtString" runat="server" OnTextChanged="txtString_TextChanged"></asp:TextBox>
+
+            <br /><br />
+
+            <asp:Button ID="SubmitString" runat="server" Text="Submit String" OnClick="SubmitString_Click" />
+            <asp:Button ID="JustSubmit" runat="server" Text="Just Submit" OnClick="JustSubmit_Click" />
+
+            <p>Value of string: held in the MEMBER VARIABLE: <asp:Label ID="LabelShowString" runat="server" Text=""></asp:Label></p>
+            
         </div>
     </form>
 </body>
