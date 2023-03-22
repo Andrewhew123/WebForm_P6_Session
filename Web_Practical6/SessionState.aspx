@@ -18,7 +18,11 @@
             <asp:Button ID="JustSubmit" runat="server" Text="Just Submit" OnClick="JustSubmit_Click" />
 
             <p>Value of string: held in the MEMBER VARIABLE: <asp:Label ID="LabelShowString" runat="server" Text=""></asp:Label></p>
-            
+
+            <!----- Session ----->
+            <p>Value of string: held in the SESSION STATE: <asp:Label ID="LabelShowStringAsSessionState" runat="server" Text=""></asp:Label></p>
+        
+        
         </div>
     </form>
 </body>

@@ -11,7 +11,7 @@ namespace Web_Practical6
 {
 
 
-    public partial class SessionState
+    public partial class FirstPage
     {
 
         /// <summary>
@@ -24,48 +24,39 @@ namespace Web_Practical6
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// txtString control.
+        /// txtName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtString;
+        protected global::System.Web.UI.WebControls.TextBox txtName;
 
         /// <summary>
-        /// SubmitString control.
+        /// RadioButtonListProgramme control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SubmitString;
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonListProgramme;
 
         /// <summary>
-        /// JustSubmit control.
+        /// ddlLanguage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button JustSubmit;
+        protected global::System.Web.UI.WebControls.DropDownList ddlLanguage;
 
         /// <summary>
-        /// LabelShowString control.
+        /// HyperLink1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelShowString;
-
-        /// <summary>
-        /// LabelShowStringAsSessionState control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelShowStringAsSessionState;
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
     }
 }

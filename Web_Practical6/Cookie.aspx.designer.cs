@@ -11,7 +11,7 @@ namespace Web_Practical6
 {
 
 
-    public partial class SessionState
+    public partial class Cookie
     {
 
         /// <summary>
@@ -24,48 +24,48 @@ namespace Web_Practical6
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// txtString control.
+        /// lblDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtString;
+        protected global::System.Web.UI.WebControls.Label lblDisplay;
 
         /// <summary>
-        /// SubmitString control.
+        /// btnClick control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SubmitString;
+        protected global::System.Web.UI.WebControls.Button btnClick;
 
         /// <summary>
-        /// JustSubmit control.
+        /// lblCookies control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button JustSubmit;
+        protected global::System.Web.UI.WebControls.Label lblCookies;
 
         /// <summary>
-        /// LabelShowString control.
+        /// txtCookie control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelShowString;
+        protected global::System.Web.UI.WebControls.TextBox txtCookie;
 
         /// <summary>
-        /// LabelShowStringAsSessionState control.
+        /// btnSetCookie control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelShowStringAsSessionState;
+        protected global::System.Web.UI.WebControls.Button btnSetCookie;
     }
 }

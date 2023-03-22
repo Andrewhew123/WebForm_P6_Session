@@ -15,12 +15,21 @@ namespace Web_Practical6
         protected void Page_Load(object sender, EventArgs e)
         {
             this.LabelShowString.Text = this._str;
+
+            //Assign Session
+            this.LabelShowStringAsSessionState.Text = (String)this.Session["str"]; 
         }
 
         protected void SubmitString_Click(object sender, EventArgs e)
         {
             this._str = this.txtString.Text;
             this.LabelShowString.Text = this._str;
+
+
+            //String store into Session
+            this.Session["str"] = this.txtString.Text;
+
+            this.LabelShowStringAsSessionState.Text = (String)this.Session["str"];
         }
 
         protected void JustSubmit_Click(object sender, EventArgs e)
