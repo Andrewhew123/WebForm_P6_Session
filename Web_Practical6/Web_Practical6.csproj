@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Cookie.aspx" />
     <Content Include="FirstPage.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="SessionState.aspx" />
     <Content Include="Special.css" />
     <Content Include="Standard.css" />
@@ -91,6 +92,9 @@
     </Compile>
     <Compile Include="FirstPage.aspx.designer.cs">
       <DependentUpon>FirstPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionState.aspx.cs">

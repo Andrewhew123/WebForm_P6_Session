@@ -11,12 +11,12 @@
     <form id="form1" runat="server">
         <div>
             <label>You are visitors: </label>
-            <asp:Label ID="lblVisitorNumber" runat="server" Text="16"></asp:Label>
+            <asp:Label ID="lblVisitorNumber" runat="server" Text=""></asp:Label>
 
             <br /><br />
 
             <label>You access on : </label>
-            <asp:Label ID="lblAccessDate" runat="server" Text="6/24/2007 12:08:19 AM"></asp:Label>
+            <asp:Label ID="lblAccessDate" runat="server" Text=""></asp:Label>
 
             <br /><br />
 

@@ -11,7 +11,11 @@ namespace Web_Practical6
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+                lblAccessDate.Text = Session["time"].ToString();
 
+                lblVisitorNumber.Text = Application["count"].ToString();
+            
         }
     }
 }
